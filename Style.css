@@ -27,3 +27,63 @@
     padding:3%;
     border-radius:10px;
 }
+.WebLogo img {
+    height: 70px;
+    width: 100px;
+}
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #074799; /* Change text color to blue */
+}
+
+.navbar-nav .nav-item::after {
+    content: ""; /* Empty content for the line */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px; /* Thickness of the bottom line */
+    background-color: #074799; /* Color of the bottom line */
+    transition: width 0.3s; /* Smooth animation for the line */
+}
+
+.navbar-nav .nav-item:hover::after {
+    width: 100%; /* Expand the line on hover */
+}
+.BannerImage img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.BannerImage {
+    position: relative;
+    text-align: center;
+    color: white; 
+}
+
+.BannerInsideImage {
+    width: 100%; 
+    height: auto;
+}
+
+.BannerText {
+    width: 70%;
+    position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
+
+
