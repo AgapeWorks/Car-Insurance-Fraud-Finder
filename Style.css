@@ -1,0 +1,29 @@
+.main-container {
+    min-height: calc(100vh - 377px);
+}
+.menu {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100% + 15px);
+    padding:0px;
+}
+    .menu li {
+        padding: 0 15px;
+        margin: 0 0 30px 0;
+        vertical-align: top;
+    }
+
+.site-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.about-txt {
+    font-weight: 500;
+    font-size: 18px;
+}
+.board-director{
+    border:1px solid #808080;
+    padding:3%;
+    border-radius:10px;
+}
