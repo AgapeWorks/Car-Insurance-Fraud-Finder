@@ -1,5 +1,11 @@
+body {
+    font-style: normal;
+    color: #0e2b5c;
+    font-weight: 485;
+    line-height: 1.625em;
+}
 .main-container {
-    min-height: calc(100vh - 377px);
+    min-height: calc(100vh - 417px);
 }
 .menu {
     margin: 0 -15px;
@@ -18,14 +24,19 @@
 .site-footer a {
     color: rgba(255, 255, 255, 0.7);
 }
-.about-txt {
-    font-weight: 500;
-    font-size: 18px;
-}
+/* .about-txt {
+    font-family: Rubik;
+    font-size: 1.1rem;
+    color: #0e2b5c;
+} */
 .board-director{
     border:1px solid #808080;
     padding:3%;
     border-radius:10px;
+}
+
+.footer-list li a{
+    text-decoration: none;
 }
 .WebLogo img {
     height: 70px;
@@ -60,7 +71,7 @@
     width: 100%; /* Expand the line on hover */
 }
 .BannerImage img {
-    height: 700px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
@@ -85,5 +96,55 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
     padding: 10px;
 }
-
-
+.CIFF-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contact .row label span {
+    display: block;
+    margin-top: 10px;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.contact .row select, .contact .row input, .contact .row textarea {
+    width: 100%;
+}
+.contact .row .columns {
+    padding: 0 30px;
+}
+.columns-6 {
+    width: 50%;
+}
+.columns {
+    float: left;
+    padding: 0 15px;
+}
+.contact{
+    border:1px solid #48607eb3;
+    border-radius: 10px;
+}
+.contact-input {
+    background: rgba(255, 255, 255, 0);
+    font-style: normal;
+    color: #48607eb3;
+    font-size: 14px;
+    line-height: 55px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-top: 0px none #000000;
+    border-right: 0px none #000000;
+    border-bottom: 3px solid rgba(98, 119, 146, 0.2);
+    border-left: 0px none #000000;
+    border-radius: 0px;
+}
+.contact .row textarea {
+    height: 140px;
+    vertical-align: top;
+}
+.wpcf7-submit{
+    background-color: #627792;
+    border-color: #627792;
+}

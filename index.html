@@ -25,34 +25,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"
         integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>About Us</title>
+    <title>Home</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
-            <div class="container-fluid">
-                <a class="navbar-brand WebLogo" asp-area="" asp-controller="Home" asp-action="Index">
+            <div class="container">
+                <a class="navbar-brand WebLogo">
                     <img src="Images/carLogo.png" alt="CarLogo" class="">
                 </a>
                 <div class="">
                     <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between px-5">
                         <ul class="navbar-nav flex-grow-1" style="display: flex; gap: 60px;">
                             <li class="nav-item ">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                    asp-action="Index">HOME</a>
+                                <a class="nav-link text-dark" href="">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                    asp-action="AboutUs">ABOUT US</a>
+                                <a class="nav-link text-dark" href="AboutUS.html">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                    asp-action="Privacy">QUANTUM PLATFORM</a>
+                                <a class="nav-link text-dark" href="QuantomPlatform.html">QUANTUM PLATFORM</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                    asp-action="Privacy">PRODUCTS</a>
+                                <a class="nav-link text-dark" href="CIFF.html">PRODUCTS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home"
@@ -65,41 +61,55 @@
             </div>
         </nav>
     </header>
-    <div>
-        <div class="BannerImage">
-            <img src="Images/CarBanner.jpg" alt="" class="BannerInsideImage">
-            <h1 class="BannerText">A Vehicle Data Service Platform for Predictive Intelligence, Data Insights, and Car
-                 Insurance Fraud Detection based on Live and Historical Vehicle Health.</h1>
-        </div>
-        <div class="container d-flex justify-content-center">
-            <div class="row my-5">
-                <div class="col-6 p-3" style="background-color: #3E5879;">
-                    <h4 class="text-white">AI Solutions</h4>
-                    <p style="text-align: left;color: #fff;">Here’s an alternate version of the text with varied phrasing while retaining the original meaning:
+    <div class="main-container container-fluid p-0">
+        <main role="main" class="pb-3">
+            <div class="BannerImage">
+                <img src="Images/car-img.jpg" alt="" class="BannerInsideImage">
+                <div class=""></div>
+                <h1 class="BannerText">A Vehicle Data Service Platform for Predictive Intelligence, Data Insights, and
+                    Car
+                    Insurance Fraud Detection based on Live and Historical Vehicle Health.</h1>
+            </div>
+            <div class="container d-flex justify-content-center">
+                <div class="row my-5">
+                    <div class="col-6 p-3 column_container" style="background-color: #3E5879;">
+                        <h4 class="text-white">AI Solutions</h4>
+                        <p style="text-align: left;color: #fff;">Here’s an alternate version of the text with varied
+                            phrasing while retaining the original meaning:
 
-                    
-                        <br>
-                        Accurate repair assessments and streamlined vehicle servicing are vital for achieving success and maximizing profitability in today’s competitive repair industry.
-                        <br>
-                        AI SOLUTIONS AI-driven technology and innovative patent-pending normalization methods deliver likely repair solutions by analyzing DTCs, symptoms, recalls, vehicle history, and other key data. This equips technicians with the insights they need to make well-informed decisions, leading to improved repair accuracy and enhanced outcomes.
-                        <br>
-                </div>
-                <div class="col-6 p-3" style="background-color: #3E5879;">
-                    <h4 class="text-white">MechanicHub</h4>
-                    <p style="text-align: left;color: #fff;">Here’s an alternate version of the text with revised phrasing:
 
-                        <br>
-                        
-                        An innovative AI platform tailored exclusively for the automotive industry, utilizing advanced technology to elevate your automotive systems.
-                        <br>
-                        This patent-pending automotive LLM, trained extensively in vehicle repair, functions like a seasoned master technician, delivering unparalleled intelligence and efficiency to streamline your operations.
-                        
-                        <br>
-                        
-                        Let me know if you need further adjustments!</p>
+                            <br>
+                            Accurate repair assessments and streamlined vehicle servicing are vital for achieving
+                            success and maximizing profitability in today’s competitive repair industry.
+                            <br>
+                            AI SOLUTIONS AI-driven technology and innovative patent-pending normalization methods
+                            deliver likely repair solutions by analyzing DTCs, symptoms, recalls, vehicle history, and
+                            other key data. This equips technicians with the insights they need to make well-informed
+                            decisions, leading to improved repair accuracy and enhanced outcomes.
+                            <br>
+                    </div>
+                    <div class="col-6 p-3 column_container" style="background-color: #3E5879;">
+                        <h4 class="text-white">MechanicHub</h4>
+                        <p style="text-align: left;color: #fff;">Here’s an alternate version of the text with revised
+                            phrasing:
+
+                            <br>
+
+                            An innovative AI platform tailored exclusively for the automotive industry, utilizing
+                            advanced technology to elevate your automotive systems.
+                            <br>
+                            This patent-pending automotive LLM, trained extensively in vehicle repair, functions like a
+                            seasoned master technician, delivering unparalleled intelligence and efficiency to
+                            streamline your operations.
+
+                            <br>
+
+                            Let me know if you need further adjustments!
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
     </div>
     <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
         <!-- Grid container -->
@@ -108,87 +118,83 @@
             <section class="">
                 <!--Grid row-->
                 <div class="row">
-                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h6 class="">Home</h6>
+
+                        <ul class="list-unstyled footer-list mb-0">
+                            <li>
+                                <a href="" class="text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">API</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">News</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h6 class="">Quantum Platform</h6>
+
+                        <!-- <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!" class="text-white">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Link 4</a>
+                    </li>
+                </ul> -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h6 class=" ">Products</h6>
+
+                        <ul class="list-unstyled footer-list mb-0">
+                            <li>
+                                <a href="" class="text-white">Enterprice solutions</a>
+                            </li>
+                            <!-- <li>
+                        <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Link 4</a>
+                    </li> -->
+                        </ul>
+                    </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">FOOTER CONTENT</h5>
+                        <h5 class="text-uppercase">Car Insurance Fraud Finder</h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Molestiae modi cum ipsam ad, illo possimus laborum ut
-                            reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
-                            Reiciendis assumenda iusto sapiente inventore animi?
+                            Car Insurance Fraud Finder leverages cutting-edge AI
+                            technology to detect and prevent fraudulent claims,
+                            ensuring accuracy, efficiency, and trust in the insurance process.
+                            Protecting insurers and policyholders with innovative solutions for a safer industry.
                         </p>
-                    </div>
-                    <!--Grid column-->
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Link 4</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <!--Grid row-->
             </section>
         </div>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            © Copyright <span id="currentYear"></span> Car Insurance Fraud Finder. All Rights Reserved.
         </div>
         <!-- Copyright -->
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
