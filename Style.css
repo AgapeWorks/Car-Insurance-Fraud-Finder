@@ -6,7 +6,7 @@ body {
     line-height: 1.625em;
 }
 .main-container {
-    min-height: calc(100vh - 417px);
+    min-height: calc(100vh - 435.86px);
 }
 .menu {
     margin: 0 -15px;
@@ -43,8 +43,8 @@ body {
     text-decoration: none;
 }
 .WebLogo img {
-    height: 70px;
-    width: 100px;
+    /* height: 70px; */
+    width: 20vw;
 }
 .navbar-nav .nav-item {
     position: relative;
